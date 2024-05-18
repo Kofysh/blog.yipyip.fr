@@ -1,6 +1,6 @@
-site: YipYip Blog
-url: #yoururl
-title: YipYip Blog
+site: blog.yipyip.Fr
+url: https://blog.yipyip.fr
+title: Blog de Kofy
 description: Simple and minimalistic jekyll blogging theme.
 twitter:
   username: #yourusername
@@ -8,13 +8,13 @@ twitter:
   creator: #yourusername
 author:
   twitter: #yourusername
-  name: #yourusername
+  name: Kofy
   avatar:
-  email: #youremail
-  url: #yoururl
+  email: admin@yipyip.Fr
+  url: https://blog.yipyip.fr
 permalink: pretty
 
-baseurl: ""
+baseurl: "https://blog.yipyip.fr"
 
 highlighter: none
 

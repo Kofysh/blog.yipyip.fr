@@ -207,4 +207,3 @@ sudo chmod +x /usr/local/bin/docker-compose
 ### Conclusion
 
 Vous avez maintenant installé Pterodactyl Panel et Wings sur votre serveur. Vous pouvez accéder à votre panneau de contrôle en visitant votre domaine. Suivez les instructions de la documentation officielle pour configurer vos serveurs de jeux et administrer votre infrastructure.
-```

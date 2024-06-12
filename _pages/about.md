@@ -25,4 +25,12 @@ Ici, je partage régulièrement des articles sur l'auto-hébergement et les solu
 - **Connexion :** 5Gbit/s via Orange France
 - **Virtualisation :** Proxmox VE
 
+#### HPE ProLiant DL360 Gen10
+- **Processeurs :** 2x Intel® Xeon® Silver 4214R
+- **Mémoire :** 128GB DDR4 ECC
+- **Stockage :** 8x 1.92TB SSD
+- **Carte Graphique :** Intégrée
+- **Connexion :** 5Gbit/s via Orange France
+- **Virtualisation :** Proxmox VE
+
 Je vous invite à explorer mes articles et à me contacter pour toute question ou suggestion. Bonne lecture !

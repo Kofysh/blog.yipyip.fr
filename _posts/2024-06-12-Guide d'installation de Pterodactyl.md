@@ -1,4 +1,4 @@
-Pterodactyl est un panneau de contrôle de gestion de serveurs de jeux, construit pour les jeux et les serveurs d'application. Voici un guide détaillé pour installer le panel Pterodactyl et Wings.
+Pterodactyl est un panneau de contrôle de gestion de serveurs de jeux, construit pour les jeux et les serveurs d'application. Voici un guide détaillé pour installer le panel Pterodactyl et Wings (Daemon).
 
 #### Prérequis
 

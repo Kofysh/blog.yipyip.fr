@@ -1,28 +1,23 @@
----
-layout: page
-title: About
----
+Bienvenue sur mon site !
 
-Sidey is a simple and minimalistic jekyll blogging theme.
+Ici, je partage régulièrement des articles sur l'auto-hébergement et les solutions technologiques que j'utilise et apprécie.
 
-### Features
+### Mes serveurs :
 
-- Responsive design
-- Inline CSS
-- Anchor headings
-- Search
-- Tags & tag pages
-- Security headers (for Netlify hosting)
-- 404 page
-- Compressed CSS and HTML
-- 100/100 score on Lighthouse, Page Speed Insights & Webpagetest
-- Robots.txt
-- Atom & Json feeds
-- Sass
-- Seo optimized (Twitter cards, Facebook Open Graph, Schema.org)
-- Ultra fast (Only ~5kb of CSS)
-- Sidebar navigation
+#### HPE ProLiant DL380 Gen10
+- **Processeurs :** 2x Intel® Xeon® Gold 6138
+- **Mémoire :** 384GB DDR4 ECC
+- **Stockage :** 16x 2.4TB SAS 10K
+- **Carte Graphique :** NVIDIA Tesla T4
+- **Connexion :** 5Gbit/s via Orange France
+- **Virtualisation :** Proxmox VE
 
-### Screenshot
+#### Dell PowerEdge R730
+- **Processeurs :** 2x Intel® Xeon® E5-2699v4
+- **Mémoire :** 256GB DDR4 ECC
+- **Stockage :** 8x 4TB SSD, 2x 2TB NVMe
+- **Carte Graphique :** NVIDIA RTX 2080
+- **Connexion :** 5Gbit/s via Orange France
+- **Virtualisation :** Proxmox VE
 
-![Screenshot](screenshot.png)
+Je vous invite à explorer mes articles et à me contacter pour toute question ou suggestion. Bonne lecture !

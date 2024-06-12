@@ -1,4 +1,4 @@
-Pterodactyl est un panneau de contrôle de gestion de serveurs de jeux, construit pour les jeux et les serveurs d'application. Voici un guide détaillé pour installer Pterodactyl Panel et Wings (le démon).
+Pterodactyl est un panneau de contrôle de gestion de serveurs de jeux, construit pour les jeux et les serveurs d'application. Voici un guide détaillé pour installer le panel Pterodactyl et Wings.
 
 #### Prérequis
 
@@ -58,7 +58,7 @@ sudo chmod +x /usr/local/bin/docker-compose
     EXIT;
     ```
 
-3. **Installer Pterodactyl Panel :**
+3. **Installer le pannel Pterodactyl :**
 
     ```bash
     cd /var/www
@@ -153,7 +153,7 @@ sudo chmod +x /usr/local/bin/docker-compose
     sudo certbot --nginx -d votredomaine.com
     ```
 
-### Étape 6 : Installation de Pterodactyl Wings
+### Étape 6 : Installation de Wings
 
 1. **Télécharger et installer Wings :**
 
@@ -206,4 +206,4 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ### Conclusion
 
-Vous avez maintenant installé Pterodactyl Panel et Wings sur votre serveur. Vous pouvez accéder à votre panneau de contrôle en visitant votre domaine. Suivez les instructions de la documentation officielle pour configurer vos serveurs de jeux et administrer votre infrastructure.
+Vous avez maintenant installé le panel Pterodactyl et Wings sur votre serveur. Vous pouvez accéder à votre panneau de contrôle en visitant votre domaine. Suivez les instructions de la documentation officielle pour configurer vos serveurs de jeux et administrer votre infrastructure.

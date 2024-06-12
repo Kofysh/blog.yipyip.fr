@@ -1,6 +1,3 @@
-
-# Guide d'Installation et d'Utilisation de WireGuard sur VPS
-
 WireGuard est un protocole VPN utilisant l'UDP. Il est compatible avec de nombreuses plateformes, extrêmement léger, très facile à déployer et beaucoup plus performant que ses concurrents tout en restant sécurisé. C'est un petit nouveau dans le domaine de l'open-source et il a fait ses preuves ces deux dernières années.
 
 ## Avantages de WireGuard

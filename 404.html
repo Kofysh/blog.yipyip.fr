@@ -4,8 +4,86 @@ title: "404: Page not found"
 permalink: 404.html
 ---
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404: Page not found</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: #2c3e50;
+            color: #ecf0f1;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+        }
+        .error-code {
+            font-size: 10rem;
+            font-weight: bold;
+            position: relative;
+            display: inline-block;
+        }
+        .error-code span {
+            position: absolute;
+            animation: float 2s infinite ease-in-out;
+        }
+        .error-code span:nth-child(1) {
+            animation-delay: 0.2s;
+        }
+        .error-code span:nth-child(2) {
+            animation-delay: 0.4s;
+        }
+        .error-code span:nth-child(3) {
+            animation-delay: 0.6s;
+        }
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        .message {
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+        .home-button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #2c3e50;
+            background: #ecf0f1;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .home-button:hover {
+            background: #bdc3c7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="error-code">
+            <span>4</span>
+            <span>0</span>
+            <span>4</span>
+        </div>
+        <div class="message">Désolé, nous avons perdu cette URL ou elle pointe vers quelque chose qui n'existe pas.</div>
+        <a href="{{ site.baseurl }}/" class="home-button">Retour à l'accueil</a>
+    </div>
+</body>
+</html>
 
-
-Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. 
 
 

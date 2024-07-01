@@ -1,38 +1,41 @@
-WireGuard est un protocole VPN utilisant l'UDP. Il est compatible avec de nombreuses plateformes, extrêmement léger, très facile à déployer et beaucoup plus performant que ses concurrents tout en restant sécurisé. C'est un petit nouveau dans le domaine de l'open-source et il a fait ses preuves ces deux dernières années.
+# WireGuard : Un VPN Performant et Sécurisé
+
+WireGuard est un protocole VPN basé sur UDP. Il est compatible avec de nombreuses plateformes, extrêmement léger, facile à déployer et offre des performances supérieures à ses concurrents tout en garantissant une sécurité optimale. En tant que nouvelle solution open-source, WireGuard a su prouver son efficacité au cours des dernières années.
 
 ## Avantages de WireGuard
 
-- **Compatibilité étendue** : Fonctionne sur diverses plateformes.
-- **Légèreté** : Très faible consommation de ressources.
-- **Facilité de déploiement** : Installation simple et rapide.
-- **Performances élevées** : Meilleur débit par rapport aux autres VPN.
-- **Sécurité** : Protège vos données efficacement.
+- **Compatibilité étendue** : Fonctionne sur diverses plateformes (Windows, macOS, Linux, Android, iOS).
+- **Légèreté** : Consommation de ressources minimisée.
+- **Facilité de déploiement** : Installation et configuration simples et rapides.
+- **Performances élevées** : Débits supérieurs comparés aux autres VPN.
+- **Sécurité accrue** : Protection efficace des données grâce à des protocoles modernes et robustes.
 
 ## Dépendance à la Qualité du Réseau
 
-La qualité de l'interconnexion dépendra de votre réseau. WireGuard ne nécessite pas une bonne connexion internet et ne réduira pas votre débit. Cependant, il faudra ajouter le ping entre vous → HMS et HMS → vous.
+La performance de WireGuard dépendra de la qualité de votre connexion réseau. Bien que WireGuard soit conçu pour maintenir un débit élevé sans nécessiter une connexion internet optimale, il est important de prendre en compte le temps de latence entre votre connexion et le serveur (ping).
 
-![Performance Comparaison](https://korben.info/app/uploads/2020/02/bench.png)
+![Comparaison des Performances](https://korben.info/app/uploads/2020/02/bench.png)
 
 ## Prérequis
 
-Pour la suite de ce guide, il est nécessaire que vous utilisiez Debian 12 ou une version ultérieure.
+Pour suivre ce guide, assurez-vous d'utiliser Debian 12 ou une version ultérieure.
 
-## Grille Tarifaire d'HMS (au 29/12/2022)
+## Grille Tarifaire d'HMS (au 01/07/2024)
 
-| Modèle     | SSD-1 | SSD-2 | SSD-4 | SSD-8 | SSD-12 | SSD-12' |
-|------------|-------|-------|-------|-------|--------|---------|
-| Prix mensuel sans engagement (TTC) | 2,99€ | 5,99€ | 9,99€ | 19,99€ | 29,99€ | 39,99€ |
-| Bande passante | 250 Mbit/s | 500 Mbit/s | 800 Mbit/s | 1 Gbit/s | 2 Gbit/s | 3 Gbit/s |
-| vCore(s) | 1 | 2 | 4 | 8 | 12 | 12 |
-| Mémoire RAM | 2 Go | 4 Go | 8 Go | 16 Go | 24 Go | 32 Go |
-| Stockage SSD | 20 Go | 40 Go | 60 Go | 120 Go | 160 Go | 200 Go |
+| Modèle     | vCPU | Processeur              | Mémoire RAM | Stockage NVMe | Bande passante | Prix mensuel (TTC) |
+|------------|------|-------------------------|-------------|---------------|----------------|---------------------|
+| SSD-1      | 1    | E5-2697A v4 - 2.60/3.60 GHz | 2 Go        | 20 Go         | 250 Mbps       | 2,99€ / mois        |
+| SSD-2      | 2    | E5-2697A v4 - 2.60/3.60 GHz | 4 Go        | 40 Go         | 500 Mbps       | 5,99€ / mois        |
+| SSD-4      | 4    | E5-2697A v4 - 2.60/3.60 GHz | 8 Go        | 60 Go         | 800 Mbps       | 9,99€ / mois        |
+| SSD-8      | 8    | E5-2697A v4 - 2.60/3.60 GHz | 16 Go       | 120 Go        | 1 Gbps         | 19,99€ / mois       |
+| SSD-12     | 12   | E5-2697A v4 - 2.60/3.60 GHz | 24 Go       | 160 Go        | 2 Gbps         | 29,99€ / mois       |
+| SSD-12'    | 12   | E5-2697A v4 - 2.60/3.60 GHz | 32 Go       | 200 Go        | 4 Gbps         | 39,99€ / mois       |
 
-Ces offres ne disposent pas de limites d'IP Failover. Vous pouvez en prendre autant que vous le souhaitez, elles coûtent 1,99€ à vie.
+Ces offres permettent une commande illimitée d'IP Failover, coûtant 1,99€ à vie.
 
 ## Commande d'IP Additionnelle
 
-Pour commander une IP additionnelle, une fois le VPS livré, rendez-vous dans l'Espace Client : **Votre VPS → Configuration → Commander une Nouvelle IP**. Une fois la commande passée, un mail de confirmation vous sera envoyé.
+Pour commander une IP additionnelle après la livraison de votre VPS, accédez à l'Espace Client : **Votre VPS → Configuration → Commander une Nouvelle IP**. Un email de confirmation vous sera envoyé après la commande.
 
 ## Configuration de WireGuard
 
@@ -104,15 +107,15 @@ Pour commander une IP additionnelle, une fois le VPS livré, rendez-vous dans l'
 
 ## Remerciements
 
-- [@Aven678](https://github.com/Aven678) : Pour la simplification de la gestion des IPs et la création de profils.
-- [@DrKnaw](https://github.com/DrKnaw) : Pour avoir corrigé des bugs initiaux.
-- [@Mael](https://github.com/maelmagnien) : Pour les tests et la validation du tutoriel.
-- @Twistky, @Diggyworld, @titin : Pour l'aide précieuse et les solutions aux problèmes rencontrés.
-
-Merci à tous ceux qui ont contribué à améliorer cette documentation ou m'ont remercié pour celle-ci.
+Un grand merci à tous ceux qui ont contribué à cette documentation :
+- [@Aven678](https://github.com/Aven678) : Simplification de la gestion des IPs et création de profils.
+- [@DrKnaw](https://github.com/DrKnaw) : Correction des bugs initiaux.
+- [@Mael](https://github.com/maelmagnien) : Tests et validation du tutoriel.
+- @Twistky, @Diggyworld, @titin : Aide précieuse et solutions aux problèmes rencontrés.
+- [@MichelBaie](https://github.com/MichelBaie) : Documentation de base et aide précieuse sur de nombreux aspects.
 
 ## Liens Utiles
 
-- [WireGuard Documentation](https://github.com/pirate/wireguard-docs)
+- [Documentation WireGuard](https://github.com/pirate/wireguard-docs)
 
-Merci d'avoir suivi cette documentation, j'espère qu'elle vous sera très utile.
+Merci d'avoir suivi cette documentation, en espérant qu'elle vous sera utile.

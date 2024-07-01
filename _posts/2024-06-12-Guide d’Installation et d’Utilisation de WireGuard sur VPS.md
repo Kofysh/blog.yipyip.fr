@@ -1,3 +1,4 @@
+
 # WireGuard : Un VPN Performant et Sécurisé
 
 WireGuard est un protocole VPN basé sur UDP. Il est compatible avec de nombreuses plateformes, extrêmement léger, facile à déployer et offre des performances supérieures à ses concurrents tout en garantissant une sécurité optimale. En tant que nouvelle solution open-source, WireGuard a su prouver son efficacité au cours des dernières années.
@@ -22,14 +23,14 @@ Pour suivre ce guide, assurez-vous d'utiliser Debian 12 ou une version ultérieu
 
 ## Grille Tarifaire d'HMS (au 01/07/2024)
 
-| Modèle     | vCPU | Processeur              | Mémoire RAM | Stockage NVMe | Bande passante | Prix mensuel (TTC) |
-|------------|------|-------------------------|-------------|---------------|----------------|---------------------|
-| SSD-1      | 1    | E5-2697A v4 - 2.60/3.60 GHz | 2 Go        | 20 Go         | 250 Mbps       | 2,99€ / mois        |
-| SSD-2      | 2    | E5-2697A v4 - 2.60/3.60 GHz | 4 Go        | 40 Go         | 500 Mbps       | 5,99€ / mois        |
-| SSD-4      | 4    | E5-2697A v4 - 2.60/3.60 GHz | 8 Go        | 60 Go         | 800 Mbps       | 9,99€ / mois        |
-| SSD-8      | 8    | E5-2697A v4 - 2.60/3.60 GHz | 16 Go       | 120 Go        | 1 Gbps         | 19,99€ / mois       |
-| SSD-12     | 12   | E5-2697A v4 - 2.60/3.60 GHz | 24 Go       | 160 Go        | 2 Gbps         | 29,99€ / mois       |
-| SSD-12'    | 12   | E5-2697A v4 - 2.60/3.60 GHz | 32 Go       | 200 Go        | 4 Gbps         | 39,99€ / mois       |
+| Modèle  | vCPU | Processeur                        | Mémoire RAM | Stockage NVMe | Bande passante | Prix mensuel (TTC) |
+|---------|------|-----------------------------------|-------------|---------------|----------------|---------------------|
+| SSD-1   | 1    | E5-2697A v4 - 2.60 / 3.60 GHz     | 2 Go        | 20 Go         | 250 Mbps       | 2,99€ / mois        |
+| SSD-2   | 2    | E5-2697A v4 - 2.60 / 3.60 GHz     | 4 Go        | 40 Go         | 500 Mbps       | 5,99€ / mois        |
+| SSD-4   | 4    | E5-2697A v4 - 2.60 / 3.60 GHz     | 8 Go        | 60 Go         | 800 Mbps       | 9,99€ / mois        |
+| SSD-8   | 8    | E5-2697A v4 - 2.60 / 3.60 GHz     | 16 Go       | 120 Go        | 1 Gbps         | 19,99€ / mois       |
+| SSD-12  | 12   | E5-2697A v4 - 2.60 / 3.60 GHz     | 24 Go       | 160 Go        | 2 Gbps         | 29,99€ / mois       |
+| SSD-12' | 12   | E5-2697A v4 - 2.60 / 3.60 GHz     | 32 Go       | 200 Go        | 4 Gbps         | 39,99€ / mois       |
 
 Ces offres permettent une commande illimitée d'IP Failover, coûtant 1,99€ à vie.
 

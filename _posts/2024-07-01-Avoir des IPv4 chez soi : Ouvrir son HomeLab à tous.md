@@ -1,13 +1,3 @@
-# Avoir des IPv4 chez soi : Ouvrir son HomeLab à tous
-
-**Description :** Comment j'ai réussi à installer facilement des IP Failover chez moi !
-
-**Résumé :** Lorsqu'on héberge chez soi, on peut rapidement être limité par une seule IP. Découvrez comment obtenir plusieurs IP Failover pour optimiser votre HomeLab.
-
-**Tags :** [tunnel, hostmyservers, hms, ipfailover, ipfo, wireguard]
-
----
-
 ## Introduction
 
 J'ai un serveur chez moi sur lequel j'ai installé [Proxmox](https://www.proxmox.com/en/proxmox-ve), un hyperviseur qui me permet de créer plusieurs machines virtuelles. Ces machines virtuelles hébergent divers services pour moi et pour d'autres utilisateurs.

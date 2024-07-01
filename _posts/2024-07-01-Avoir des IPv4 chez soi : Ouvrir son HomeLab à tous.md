@@ -11,7 +11,7 @@ Nous allons aborder plusieurs approches pour obtenir des IP chez soi et publier 
 1. **Méthode originale** : Associer à n'importe quelle machine une adresse IP publique via un profil WireGuard dédié.
 2. **Méthode alternative** : Utiliser un tunnel VPN pour assigner des IP publiques.
 
-![Schéma explicatif](https://img.creeper.fr/Kiba9/tuQUwUmU80.png/raw)
+![Schéma explicatif](https://via.placeholder.com/800x400?text=Schéma+explicatif)
 
 ## Génération de certificats SSL
 
@@ -21,33 +21,33 @@ Les certificats SSL gratuits permettent d'avoir l'HTTPS sur vos services. Voici 
 - Le contrôle de la zone DNS (Cloudflare est recommandé)
 - Une règle DNS A pointant vers l'IP principale du VPS HMS
 
-![Préparation des certificats SSL](https://img.creeper.fr/Kiba9/QicegAwo63.png/raw)
+![Préparation des certificats SSL](https://via.placeholder.com/800x400?text=Préparation+des+certificats+SSL)
 
 ### Étape 1 : Générer un certificat SSL
 
 1. Accédez à la rubrique **SSL Certificates** via la barre de navigation.
    
-   ![SSL Certificates](https://img.creeper.fr/Kiba9/bIKImOkU61.png/raw)
+   ![SSL Certificates](https://via.placeholder.com/800x400?text=SSL+Certificates)
    
 2. Cliquez sur **Add SSL Certificate**.
    
-   ![Ajouter un certificat SSL](https://img.creeper.fr/Kiba9/jOyikAPi20.png/raw)
+   ![Ajouter un certificat SSL](https://via.placeholder.com/800x400?text=Ajouter+un+certificat+SSL)
 
 3. Entrez le nom de domaine du service que vous souhaitez sécuriser. Pour un sous-domaine, utilisez par exemple `*.votredomaine.fr` et suivez le DNS Challenge pour valider le certificat.
 
-   ![DNS Challenge](https://img.creeper.fr/Kiba9/KiLOdELU62.png/raw)
+   ![DNS Challenge](https://via.placeholder.com/800x400?text=DNS+Challenge)
 
-   ![Validation du certificat](https://img.creeper.fr/Kiba9/RICOWutO99.png/raw)
+   ![Validation du certificat](https://via.placeholder.com/800x400?text=Validation+du+certificat)
 
 ### Étape 2 : Créer le service associé
 
 1. Une fois le certificat généré, accédez à la rubrique **Hosts**.
    
-   ![Hosts](https://img.creeper.fr/Kiba9/YAFiSutI96.png/raw)
+   ![Hosts](https://via.placeholder.com/800x400?text=Hosts)
 
 2. Cliquez sur **Add Proxy Host**.
    
-   ![Ajouter un Proxy Host](https://img.creeper.fr/Kiba9/vikEQuVe99.png/raw)
+   ![Ajouter un Proxy Host](https://via.placeholder.com/800x400?text=Ajouter+un+Proxy+Host)
 
 3. Configurez les paramètres :
    - **Domain Names** : `sousdomaine.votresite.fr`
@@ -57,15 +57,15 @@ Les certificats SSL gratuits permettent d'avoir l'HTTPS sur vos services. Voici 
    
    Activez les options "Block Common Exploits" et "Websockets Support".
 
-   ![Configuration du Proxy Host](https://img.creeper.fr/Kiba9/QewiwebO93.png/raw)
+   ![Configuration du Proxy Host](https://via.placeholder.com/800x400?text=Configuration+du+Proxy+Host)
 
 4. Dans la rubrique SSL, sélectionnez le certificat SSL généré précédemment, et cochez "Force SSL" et "HTTP/2 Support".
 
-   ![Configuration SSL](https://img.creeper.fr/Kiba9/pEmICuKI58.png/raw)
+   ![Configuration SSL](https://via.placeholder.com/800x400?text=Configuration+SSL)
 
 5. Sauvegardez en cliquant sur **Save**.
 
-   ![Sauvegarder la configuration](https://img.creeper.fr/Kiba9/lUTuVEzU83.png/raw)
+   ![Sauvegarder la configuration](https://via.placeholder.com/800x400?text=Sauvegarder+la+configuration)
 
 ---
 
